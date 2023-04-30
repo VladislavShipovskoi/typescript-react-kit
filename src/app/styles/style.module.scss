@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+:global(#root) {
+  height: inherit;
+}
+
+.app {
+  height: 100%;
+}
